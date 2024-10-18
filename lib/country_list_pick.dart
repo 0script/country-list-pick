@@ -83,7 +83,7 @@ class _CountryListPickState extends State<CountryListPick> {
             appBar: widget.appBar ??
                 AppBar(
                   backgroundColor: Theme.of(context).appBarTheme.backgroundColor,
-                  title: Text("Select Country"),
+                  title: Text("Selectionner nationalité"),
                 ),
             theme: theme,
             countryBuilder: widget.countryBuilder,
