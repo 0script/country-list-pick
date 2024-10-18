@@ -112,7 +112,7 @@ class _SelectionListState extends State<SelectionList> {
                               contentPadding: EdgeInsets.only(
                                   left: 15, bottom: 0, top: 0, right: 15),
                               hintText:
-                                  widget.theme?.searchHintText ?? "Search...",
+                                  widget.theme?.searchHintText ?? "Recherche...",
                             ),
                             onChanged: _filterElements,
                           ),
