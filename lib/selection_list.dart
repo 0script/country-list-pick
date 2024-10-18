@@ -120,7 +120,7 @@ class _SelectionListState extends State<SelectionList> {
                         Padding(
                           padding: const EdgeInsets.all(15.0),
                           child: Text(
-                            widget.theme?.lastPickText ?? 'LAST PICK',
+                            widget.theme?.lastPickText ?? 'DERNIER CHOIX',
                             style: TextStyle(
                                 color:
                                     widget.theme?.labelColor ?? Colors.black),
