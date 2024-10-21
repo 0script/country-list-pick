@@ -132,12 +132,12 @@ class _CountryListPickState extends State<CountryListPick> {
                   Flexible(
                     child: Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 5.0),
-                      child: Text(selectedItem!.toCountryStringOnly()),
+                      child: Text(selectedItem!.toCountryStringOnly(),style:TextStyle(color:Colors.blue)),
                     ),
                   ),
                 if (widget.theme?.isDownIcon ?? true == true)
                   Flexible(
-                    child: Icon(Icons.keyboard_arrow_down),
+                    child: Icon(Icons.keyboard_arrow_down,color:Colors.blue),
                   )
               ],
             ),
